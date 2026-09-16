@@ -1,0 +1,12 @@
+apiVersion: 1
+
+providers:
+  - name: 'Hermex'
+    orgId: 1
+    folder: 'Hermex Platform'
+    type: file
+    disableDeletion: false
+    updateIntervalSeconds: 10
+    allowUiUpdates: true
+    options:
+      path: /etc/grafana/provisioning/dashboards/hermex-overview.json
